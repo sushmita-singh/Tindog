@@ -1,0 +1,140 @@
+* { box-sizing: border-box;}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+}
+
+.container * {
+    /* border: 1px solid magenta; */
+}
+
+/* =============
+      GENERAL
+   ============= */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    box-shadow: 0 0 5px rgb(53, 53, 53);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+header, 
+footer {
+    display: flex;
+    padding: 10px;
+}
+
+/* =============
+       HEADER
+   ============= */
+
+header {
+    justify-content: space-between;
+}
+
+.icon-header {
+    width: 1.8em;
+    object-fit: cover;
+}
+
+.logo {
+    width: 60px;
+    height: 30px;
+}
+
+/* =============
+       MAIN
+   ============= */
+
+.dog-data {
+    height: 550px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#img-dog {
+    height: 540px;
+    border-radius: 10px;
+}
+
+.dog-data h1,
+.dog-data p {
+    position: relative;
+    bottom: 170px;
+    left: 10px;
+    margin: 0 0 3px;
+    width: 90%;
+}
+
+.dog-data p {
+    color: #B7B7B7;
+}
+
+/* Liked Or Disliked */
+
+.badge {
+    position: relative;
+    width: 150px;
+    transform: rotate(-40deg);
+    left: 10px;
+    top: -480px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* =============
+       FOOTER
+   ============= */
+
+footer {
+    margin: 0 auto;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.icon-footer {
+    width: 80px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #B7B7B7;
+}
+
+.icon-heart,
+.icon-cross {
+    width: 60px;
+}
+
+.icon-heart:hover,
+.icon-header:focus {
+    background-color: #DBFFF4;
+}
+
+.icon-cross:hover,
+.icon-cross:focus {
+    background-color: #FFE7EF;
+}
+
+
+
+
+
+
+
