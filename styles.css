@@ -71,14 +71,14 @@ header {
 .dog-data h1,
 .dog-data p {
     position: relative;
-    bottom: 170px;
+    bottom: 30%;
     left: 10px;
     margin: 0 0 3px;
     width: 90%;
 }
 
 .dog-data p {
-    color: #B7B7B7;
+    color: #e5e4e4;
 }
 
 /* Liked Or Disliked */
@@ -107,6 +107,11 @@ footer {
     margin: 0 auto;
     width: 200px;
     justify-content: space-evenly;
+}
+
+button {
+    background: transparent;
+    border: none;
 }
 
 .icon-footer {
