@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 400px;
+    height: 660px;
     box-shadow: 0 0 5px rgb(53, 53, 53);
     border-radius: 10px;
     padding: 10px;
@@ -44,6 +45,13 @@ header {
     object-fit: cover;
 }
 
+.icon-profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+
 .logo {
     width: 60px;
     height: 30px;
@@ -54,17 +62,18 @@ header {
    ============= */
 
 .dog-data {
-    height: 550px;
+    height: 510px;
     margin: 10px;
     border-radius: 10px;
     color: white;
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding-bottom: 0;
 }
 
 #img-dog {
-    height: 540px;
+    height: 500px;
     border-radius: 10px;
 }
 
@@ -88,7 +97,7 @@ header {
     width: 150px;
     transform: rotate(-40deg);
     left: 10px;
-    top: -480px;
+    top: -450px;
 }
 
 .hidden {
@@ -137,6 +146,63 @@ button {
     background-color: #FFE7EF;
 }
 
+/* Show match */
+
+.result {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding-top: 7em;
+    height: 100%;
+}
+
+.show-match {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ascent {
+    color: palevioletred;
+    display: block;
+    font-size: 2em;
+    font-family: 'Freehand', cursive;
+}
+
+.match {
+    width: 170px;
+    height: 170px;
+    border: 5px solid palevioletred;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.self {
+    margin-right: -5px;
+}
+
+.partner {
+    margin-left: -5px;
+}
+
+#try-again {
+    /* padding: 1em 2em; */
+    /* background-color: paleturquoise;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600; */
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+
+#try-again:hover,
+#try-again:focus {    
+    background-color: rgb(119, 222, 222);
+}
 
 
 
